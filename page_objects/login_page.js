@@ -1,10 +1,12 @@
+const config = require('../utils/config');
+
 class LoginPage {
     constructor(page) {
         this.page = page;
     }
 
     async open() {
-        await this.page.goto('https://example.com/login');
+        await this.page.goto(loginUrl);
     }
 
     async isLoginSuccessful() {
