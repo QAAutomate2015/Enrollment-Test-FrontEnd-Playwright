@@ -1,0 +1,25 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore Playwright's browser binaries
+.playwright/
+
+# Ignore logs and reports
+reports/
+logs/
+
+# Ignore any local configuration files
+config.json
+.env
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore any files generated during development or testing
+*.log
+*.log.*
+*.txt
+*.json
+*.xml
+*.html
